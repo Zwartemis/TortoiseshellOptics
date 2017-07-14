@@ -195,6 +195,13 @@ footer img {
   header {
     background-position: 20%;
     height: 17rem;
+    width: 100%;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
   }
 
   header p {
@@ -247,8 +254,9 @@ footer img {
   }
 
   .stance {
-    width: 100%;
     margin-bottom: 4rem;
+    margin-right: 0;
+    width: 100%;
   }
 
   .stance p {
@@ -258,6 +266,7 @@ footer img {
   .subhead {
     width: 100%;
     margin-bottom: 1rem;
+    padding: 0.5rem 0;
   }
 
   h3 {
