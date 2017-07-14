@@ -155,7 +155,7 @@ footer img {
 }
 
 /* Media queries */
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 769px) {
   nav.mobile {
     display: none;
   }
@@ -186,13 +186,17 @@ footer img {
   }
 }
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:768px) {
   nav.desktop {
     display: none;
   }
   header {
     background-position: 20%;
     height: 17rem;
+  }
+
+  header p {
+    display: none;
   }
 
   .message {
